@@ -10,7 +10,6 @@ def settings(monkeypatch):
     class DummySettings:
         origin_host = "https://askbrain.ru"
         tilda_feed_uids = ("824854191681",)
-        tilda_rec_id = "1396561121"
         tilda_default_size = 2
         tilda_concurrency = 2
 

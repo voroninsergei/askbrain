@@ -12,7 +12,6 @@ from pydantic import AnyHttpUrl, BaseModel, Field, field_validator
 class Settings(BaseModel):
     origin_host: AnyHttpUrl = Field(alias="ORIGIN_HOST")
     tilda_feed_uids: tuple[str, ...] = Field(alias="TILDA_FEED_UIDS")
-    tilda_rec_id: str = Field(alias="TILDA_REC_ID")
     tilda_default_size: int = Field(alias="TILDA_SIZE", default=100)
     tilda_concurrency: int = Field(alias="TILDA_CONCURRENCY", default=2)
 
@@ -37,15 +36,13 @@ class Settings(BaseModel):
 @lru_cache()
 def get_settings() -> Settings:
     env_file = os.getenv("ASKBRAIN_ENV_FILE")
-    env_path = None
-
     if env_file:
         candidate = Path(env_file)
         env_path = candidate if candidate.is_absolute() else Path.cwd() / candidate
     else:
         env_path = Path(__file__).resolve().parents[2] / ".env"
 
-    if env_path and env_path.exists():
+    if env_path.exists():
         return Settings.model_validate(dict(dotenv_values(env_path)))
 
     return Settings.model_validate(os.environ)

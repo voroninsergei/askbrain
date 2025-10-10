@@ -8,10 +8,11 @@ on:
 jobs:
   fetch-top-posts:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       ORIGIN_HOST: ${{ secrets.ORIGIN_HOST }}
       TILDA_FEED_UIDS: ${{ secrets.TILDA_FEED_UIDS }}
-      TILDA_REC_ID: ${{ secrets.TILDA_REC_ID }}
       TILDA_SIZE: ${{ vars.TILDA_SIZE || '100' }}
       TILDA_CONCURRENCY: ${{ vars.TILDA_CONCURRENCY || '2' }}
     steps:
@@ -46,5 +47,5 @@ jobs:
       - name: Push changes
         run: git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
 

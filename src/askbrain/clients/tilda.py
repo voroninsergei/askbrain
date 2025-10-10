@@ -41,7 +41,6 @@ class TildaFeedClient(FeedClient):
         url = self._build_url(feed_uid)
         query = {
             "feeduid": feed_uid,
-            "recid": self.settings.tilda_rec_id,
             "size": params.size,
             "slice": params.slice,
             "sort[date]": params.sort_date,
