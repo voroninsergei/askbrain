@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       ORIGIN_HOST: ${{ secrets.ORIGIN_HOST }}
       TILDA_FEED_UIDS: ${{ secrets.TILDA_FEED_UIDS }}
@@ -49,11 +54,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      - name: Prepare pages artifacts
+        run: |
+          mkdir -p public
+          cp data/top_posts.json public/
+          cp data/top_posts_meta.json public/
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: top-posts
-          path: |
-            data/top_posts.json
-            data/top_posts_meta.json
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
