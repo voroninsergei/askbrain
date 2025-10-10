@@ -32,7 +32,7 @@ def main() -> None:
 async def _fetch_top_impl(output: Path, meta_output: Path) -> None:
     settings = get_settings()
     async with TildaFeedClient(settings=settings) as client:
-        service = TopPostsService(client=client, limit=3, concurrency=settings.tilda_concurrency)
+        service = TopPostsService(client=client, limit=10, concurrency=settings.tilda_concurrency)
         result = await service.fetch_top_posts(settings.tilda_feed_uids)
 
     dump_to_file([post.model_dump(mode="json") for post in result.posts], output)
