@@ -1,0 +1,9 @@
+.env
+.env.local
+.venv/
+.ruff_cache/
+.mypy_cache/
+__pycache__/
+*.pyc
+data/*.json
+
