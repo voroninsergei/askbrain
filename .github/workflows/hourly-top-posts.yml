@@ -37,7 +37,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add data/top_posts.json data/top_posts_meta.json
+          git add -f data/top_posts.json data/top_posts_meta.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
@@ -48,4 +48,12 @@ jobs:
         run: git push
         env:
           GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: top-posts
+          path: |
+            data/top_posts.json
+            data/top_posts_meta.json
 
