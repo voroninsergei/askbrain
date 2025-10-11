@@ -16,8 +16,10 @@ logger = logging.getLogger(__name__)
 class TopPostsResult:
     fetched_at: datetime
     posts: list[FeedPost]
+    posts_by_category: dict[str, list[FeedPost]]
     source_feeds: tuple[str, ...]
     total_posts: int
+    category_stats: dict[str, int]
 
 
 class TopPostsService:
@@ -29,14 +31,21 @@ class TopPostsService:
     async def fetch_top_posts(self, feed_uids: Iterable[str]) -> TopPostsResult:
         feed_list = tuple(feed_uids)
         posts = await self._collect_posts(feed_list)
-        unique_posts = {post.uid: post for post in posts}.values()
+        unique_posts = list({post.uid: post for post in posts}.values())
+
         top_posts = sorted(unique_posts, key=lambda post: post.stats.views, reverse=True)[: self.limit]
+
+        posts_by_category = self._group_by_category(unique_posts)
+        category_stats = {category: len(posts) for category, posts in posts_by_category.items()}
+
         fetched_at = datetime.now(tz=timezone.utc)
         return TopPostsResult(
             fetched_at=fetched_at,
             posts=top_posts,
+            posts_by_category=posts_by_category,
             source_feeds=feed_list,
             total_posts=len(posts),
+            category_stats=category_stats,
         )
 
     async def _collect_posts(self, feed_uids: tuple[str, ...]) -> list[FeedPost]:
@@ -59,3 +68,18 @@ class TopPostsService:
             logger.info("Получено %s постов из фида %s", len(posts), feed_uid)
             return posts
 
+    def _group_by_category(self, posts: list[FeedPost]) -> dict[str, list[FeedPost]]:
+        categories: dict[str, list[FeedPost]] = {}
+
+        for post in posts:
+            for category in post.parts:
+                if category not in categories:
+                    categories[category] = []
+                categories[category].append(post)
+
+        result = {}
+        for category, category_posts in categories.items():
+            sorted_posts = sorted(category_posts, key=lambda p: p.stats.views, reverse=True)[: self.limit]
+            result[category] = sorted_posts
+
+        return result
