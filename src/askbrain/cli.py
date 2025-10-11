@@ -35,7 +35,14 @@ async def _fetch_top_impl(output: Path, meta_output: Path) -> None:
         service = TopPostsService(client=client, limit=10, concurrency=settings.tilda_concurrency)
         result = await service.fetch_top_posts(settings.tilda_feed_uids)
 
-    dump_to_file([post.model_dump(mode="json") for post in result.posts], output)
+    posts_data = {
+        "overall_top": [post.model_dump(mode="json") for post in result.posts],
+        "by_category": {
+            category: [post.model_dump(mode="json") for post in posts]
+            for category, posts in result.posts_by_category.items()
+        },
+    }
+    dump_to_file(posts_data, output)
 
     dump_to_file(
         {
@@ -43,6 +50,7 @@ async def _fetch_top_impl(output: Path, meta_output: Path) -> None:
             "source_feeds": list(result.source_feeds),
             "total_posts": result.total_posts,
             "result_posts": len(result.posts),
+            "categories": result.category_stats,
         },
         meta_output,
     )
