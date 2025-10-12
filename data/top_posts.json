@@ -162,6 +162,122 @@
     }
   ],
   "by_category": {
+    "Физика": [
+      {
+        "uid": "xs59t57xa1",
+        "title": "Когда я смотрю рекламные ролики машин по ящику, мне все время кажется, что колеса у них крутятся назад, хотя сама машина явно едет вперед. Почему?",
+        "url": "http://askbrain.ru/tpost/xs59t57xa1-kogda-ya-smotryu-reklamnie-roliki-mashin",
+        "published": "2025-10-07T05:28:57",
+        "stats": {
+          "views": 5,
+          "likes": 0
+        },
+        "parts": [
+          "Физика"
+        ],
+        "image": "https://static.tildacdn.com/tild3637-3835-4166-a665-653437313166/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
+        "uid": "kfpe35m8n1",
+        "title": "Может ли вишнёвая косточка, выплюнутая человеком, находящимся на крыше высотки, убить кого-нибудь?",
+        "url": "http://askbrain.ru/tpost/kfpe35m8n1-mozhet-li-vishnyovaya-kostochka-viplyunu",
+        "published": "2025-10-11T02:38:42",
+        "stats": {
+          "views": 2,
+          "likes": 0
+        },
+        "parts": [
+          "Физика"
+        ],
+        "image": "https://static.tildacdn.com/tild3061-3232-4530-a261-613866376163/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
+        "uid": "ng5s792251",
+        "title": "Молекулы воздуха находятся в хаотичном движении. Каков математический риск того, что они все одновременно начнут двигаться в противоположном направлении от моих дыхательных путей — и я задохнусь?",
+        "url": "http://askbrain.ru/tpost/ng5s792251-molekuli-vozduha-nahodyatsya-v-haotichno",
+        "published": "2025-10-12T05:38:54",
+        "stats": {
+          "views": 0,
+          "likes": 0
+        },
+        "parts": [
+          "Физика"
+        ],
+        "image": "https://static.tildacdn.com/tild3366-3262-4131-b134-303564373036/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
+        "uid": "xmski9hay1",
+        "title": "Правда ли, что пакет с мукой может взорваться?",
+        "url": "http://askbrain.ru/tpost/xmski9hay1-pravda-li-chto-paket-s-mukoi-mozhet-vzor",
+        "published": "2025-10-12T05:36:55",
+        "stats": {
+          "views": 0,
+          "likes": 0
+        },
+        "parts": [
+          "Физика"
+        ],
+        "image": "https://static.tildacdn.com/tild6533-3432-4035-a166-666462626631/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      }
+    ],
+    "Технологии": [
+      {
+        "uid": "d2bmkublu1",
+        "title": "Я тут порылся в своем гардеробе, и оказалось, что на всех моих штанах стоят молнии с маркировкой YKK. Что означают эти дурацкие буквы, и если это название фирмы, куда смотрит антимонопольный комитет?",
+        "url": "http://askbrain.ru/tpost/d2bmkublu1-ya-tut-porilsya-v-svoem-garderobe-i-okaz",
+        "published": "2025-10-09T04:45:15",
+        "stats": {
+          "views": 1,
+          "likes": 0
+        },
+        "parts": [
+          "Технологии"
+        ],
+        "image": "https://static.tildacdn.com/tild3633-6564-4435-b033-343231383533/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
+        "uid": "eodetpny71",
+        "title": "Как делаются дырки в макаронах?",
+        "url": "http://askbrain.ru/tpost/eodetpny71-kak-delayutsya-dirki-v-makaronah",
+        "published": "2025-10-12T05:34:30",
+        "stats": {
+          "views": 0,
+          "likes": 0
+        },
+        "parts": [
+          "Технологии"
+        ],
+        "image": "https://static.tildacdn.com/tild3365-6336-4036-b031-366132633339/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
+        "uid": "9l5p3fpdb1",
+        "title": "Как космонавты ходят в туалет?",
+        "url": "http://askbrain.ru/tpost/9l5p3fpdb1-kak-kosmonavti-hodyat-v-tualet",
+        "published": "2025-10-09T05:00:28",
+        "stats": {
+          "views": 0,
+          "likes": 0
+        },
+        "parts": [
+          "Технологии"
+        ],
+        "image": "https://static.tildacdn.com/tild3734-3730-4863-a364-353732363431/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      }
+    ],
     "Медицина": [
       {
         "uid": "njmz53ocl1",
@@ -226,6 +342,22 @@
         "image": "https://static.tildacdn.com/tild3861-3532-4365-a262-666230623163/Sergei_Voronin______.jpg",
         "descr": "",
         "text": "<div class=\"t-redactor__tte-view\"><div class=\"t-redactor__text\">Долгое время утверждение, что онанизм негативно влияет на зрение, считалось мифом, придуманным ханжами. Но недавно был проведён ряд опытов, в корне изменивших современные представления на эту тему. Выяснилось, что от мастурбации зрение на самом деле может ухудшиться. Токийский исследователь, доктор медицинских наук Митицума Такавару, в 2001 году провел ряд лабораторных исследований, убедивших его в этом.</div></div>"
+      },
+      {
+        "uid": "acarx3m7x1",
+        "title": "Если часто ковырять в носу, можно ли растянуть ноздри?",
+        "url": "http://askbrain.ru/tpost/acarx3m7x1-esli-chasto-koviryat-v-nosu-mozhno-li-ra",
+        "published": "2025-10-12T05:32:54",
+        "stats": {
+          "views": 0,
+          "likes": 0
+        },
+        "parts": [
+          "Медицина"
+        ],
+        "image": "https://static.tildacdn.com/tild6330-3764-4038-a437-373763616261/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
       },
       {
         "uid": "jo8evkui31",
@@ -312,40 +444,6 @@
         "text": ""
       }
     ],
-    "Физика": [
-      {
-        "uid": "xs59t57xa1",
-        "title": "Когда я смотрю рекламные ролики машин по ящику, мне все время кажется, что колеса у них крутятся назад, хотя сама машина явно едет вперед. Почему?",
-        "url": "http://askbrain.ru/tpost/xs59t57xa1-kogda-ya-smotryu-reklamnie-roliki-mashin",
-        "published": "2025-10-07T05:28:57",
-        "stats": {
-          "views": 5,
-          "likes": 0
-        },
-        "parts": [
-          "Физика"
-        ],
-        "image": "https://static.tildacdn.com/tild3637-3835-4166-a665-653437313166/Sergei_Voronin______.jpg",
-        "descr": "",
-        "text": ""
-      },
-      {
-        "uid": "kfpe35m8n1",
-        "title": "Может ли вишнёвая косточка, выплюнутая человеком, находящимся на крыше высотки, убить кого-нибудь?",
-        "url": "http://askbrain.ru/tpost/kfpe35m8n1-mozhet-li-vishnyovaya-kostochka-viplyunu",
-        "published": "2025-10-11T02:38:42",
-        "stats": {
-          "views": 2,
-          "likes": 0
-        },
-        "parts": [
-          "Физика"
-        ],
-        "image": "https://static.tildacdn.com/tild3061-3232-4530-a261-613866376163/Sergei_Voronin______.jpg",
-        "descr": "",
-        "text": ""
-      }
-    ],
     "История": [
       {
         "uid": "h8xgl2h1m1",
@@ -376,40 +474,6 @@
           "История"
         ],
         "image": "https://static.tildacdn.com/tild3935-3336-4336-b830-386638383730/Sergei_Voronin______.jpg",
-        "descr": "",
-        "text": ""
-      }
-    ],
-    "Технологии": [
-      {
-        "uid": "d2bmkublu1",
-        "title": "Я тут порылся в своем гардеробе, и оказалось, что на всех моих штанах стоят молнии с маркировкой YKK. Что означают эти дурацкие буквы, и если это название фирмы, куда смотрит антимонопольный комитет?",
-        "url": "http://askbrain.ru/tpost/d2bmkublu1-ya-tut-porilsya-v-svoem-garderobe-i-okaz",
-        "published": "2025-10-09T04:45:15",
-        "stats": {
-          "views": 1,
-          "likes": 0
-        },
-        "parts": [
-          "Технологии"
-        ],
-        "image": "https://static.tildacdn.com/tild3633-6564-4435-b033-343231383533/Sergei_Voronin______.jpg",
-        "descr": "",
-        "text": ""
-      },
-      {
-        "uid": "9l5p3fpdb1",
-        "title": "Как космонавты ходят в туалет?",
-        "url": "http://askbrain.ru/tpost/9l5p3fpdb1-kak-kosmonavti-hodyat-v-tualet",
-        "published": "2025-10-09T05:00:28",
-        "stats": {
-          "views": 0,
-          "likes": 0
-        },
-        "parts": [
-          "Технологии"
-        ],
-        "image": "https://static.tildacdn.com/tild3734-3730-4863-a364-353732363431/Sergei_Voronin______.jpg",
         "descr": "",
         "text": ""
       }
