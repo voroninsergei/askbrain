@@ -33,6 +33,22 @@
       "text": ""
     },
     {
+      "uid": "ng5s792251",
+      "title": "Молекулы воздуха находятся в хаотичном движении. Каков математический риск того, что они все одновременно начнут двигаться в противоположном направлении от моих дыхательных путей — и я задохнусь?",
+      "url": "http://askbrain.ru/tpost/ng5s792251-molekuli-vozduha-nahodyatsya-v-haotichno",
+      "published": "2025-10-12T05:38:54",
+      "stats": {
+        "views": 7,
+        "likes": 0
+      },
+      "parts": [
+        "Физика"
+      ],
+      "image": "https://static.tildacdn.com/tild3366-3262-4131-b134-303564373036/Sergei_Voronin______.jpg",
+      "descr": "",
+      "text": ""
+    },
+    {
       "uid": "h8xgl2h1m1",
       "title": "Каково происхождение слова \"dollar\" и значка \"$\"?",
       "url": "http://askbrain.ru/tpost/h8xgl2h1m1-kakovo-proishozhdenie-slova-dollar-i-zna",
@@ -61,22 +77,6 @@
         "Физика"
       ],
       "image": "https://static.tildacdn.com/tild3637-3835-4166-a665-653437313166/Sergei_Voronin______.jpg",
-      "descr": "",
-      "text": ""
-    },
-    {
-      "uid": "ng5s792251",
-      "title": "Молекулы воздуха находятся в хаотичном движении. Каков математический риск того, что они все одновременно начнут двигаться в противоположном направлении от моих дыхательных путей — и я задохнусь?",
-      "url": "http://askbrain.ru/tpost/ng5s792251-molekuli-vozduha-nahodyatsya-v-haotichno",
-      "published": "2025-10-12T05:38:54",
-      "stats": {
-        "views": 6,
-        "likes": 0
-      },
-      "parts": [
-        "Физика"
-      ],
-      "image": "https://static.tildacdn.com/tild3366-3262-4131-b134-303564373036/Sergei_Voronin______.jpg",
       "descr": "",
       "text": ""
     },
@@ -164,6 +164,22 @@
   "by_category": {
     "Физика": [
       {
+        "uid": "ng5s792251",
+        "title": "Молекулы воздуха находятся в хаотичном движении. Каков математический риск того, что они все одновременно начнут двигаться в противоположном направлении от моих дыхательных путей — и я задохнусь?",
+        "url": "http://askbrain.ru/tpost/ng5s792251-molekuli-vozduha-nahodyatsya-v-haotichno",
+        "published": "2025-10-12T05:38:54",
+        "stats": {
+          "views": 7,
+          "likes": 0
+        },
+        "parts": [
+          "Физика"
+        ],
+        "image": "https://static.tildacdn.com/tild3366-3262-4131-b134-303564373036/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
         "uid": "xs59t57xa1",
         "title": "Когда я смотрю рекламные ролики машин по ящику, мне все время кажется, что колеса у них крутятся назад, хотя сама машина явно едет вперед. Почему?",
         "url": "http://askbrain.ru/tpost/xs59t57xa1-kogda-ya-smotryu-reklamnie-roliki-mashin",
@@ -176,22 +192,6 @@
           "Физика"
         ],
         "image": "https://static.tildacdn.com/tild3637-3835-4166-a665-653437313166/Sergei_Voronin______.jpg",
-        "descr": "",
-        "text": ""
-      },
-      {
-        "uid": "ng5s792251",
-        "title": "Молекулы воздуха находятся в хаотичном движении. Каков математический риск того, что они все одновременно начнут двигаться в противоположном направлении от моих дыхательных путей — и я задохнусь?",
-        "url": "http://askbrain.ru/tpost/ng5s792251-molekuli-vozduha-nahodyatsya-v-haotichno",
-        "published": "2025-10-12T05:38:54",
-        "stats": {
-          "views": 6,
-          "likes": 0
-        },
-        "parts": [
-          "Физика"
-        ],
-        "image": "https://static.tildacdn.com/tild3366-3262-4131-b134-303564373036/Sergei_Voronin______.jpg",
         "descr": "",
         "text": ""
       },
