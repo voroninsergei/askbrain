@@ -81,6 +81,22 @@
       "text": ""
     },
     {
+      "uid": "ioe624fxz1",
+      "title": "Мой пёс (болонка) и кошка постоянно занимаются любовью. Может ли у них быть потомство?",
+      "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
+      "published": "2025-10-11T02:46:33",
+      "stats": {
+        "views": 5,
+        "likes": 0
+      },
+      "parts": [
+        "Биология"
+      ],
+      "image": "https://static.tildacdn.com/tild3237-6137-4232-b761-653438316431/Sergei_Voronin______.jpg",
+      "descr": "",
+      "text": ""
+    },
+    {
       "uid": "vi7vvlfba1",
       "title": "Меня давно мучает один вопрос. Допустим, что один из сиамских близнецов совершил убийство. А второй — невиновен. Что будут делать представители правоохранительных органов в этой ситуации?",
       "url": "http://askbrain.ru/tpost/vi7vvlfba1-menya-davno-muchaet-odin-vopros-dopustim",
@@ -93,22 +109,6 @@
         "Право"
       ],
       "image": "https://static.tildacdn.com/tild6231-3439-4339-b132-373161623130/Sergei_Voronin______.jpg",
-      "descr": "",
-      "text": ""
-    },
-    {
-      "uid": "ioe624fxz1",
-      "title": "Мой пёс (болонка) и кошка постоянно занимаются любовью. Может ли у них быть потомство?",
-      "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
-      "published": "2025-10-11T02:46:33",
-      "stats": {
-        "views": 4,
-        "likes": 0
-      },
-      "parts": [
-        "Биология"
-      ],
-      "image": "https://static.tildacdn.com/tild3237-6137-4232-b761-653438316431/Sergei_Voronin______.jpg",
       "descr": "",
       "text": ""
     },
@@ -129,6 +129,22 @@
       "text": ""
     },
     {
+      "uid": "76hbsyebr1",
+      "title": "Существуют ли в природе умственно отсталые животные?",
+      "url": "http://askbrain.ru/tpost/76hbsyebr1-suschestvuyut-li-v-prirode-umstvenno-ots",
+      "published": "2025-10-09T05:59:39",
+      "stats": {
+        "views": 4,
+        "likes": 0
+      },
+      "parts": [
+        "Биология"
+      ],
+      "image": "https://static.tildacdn.com/tild6264-3866-4864-a232-666535306535/Sergei_Voronin______.jpg",
+      "descr": "",
+      "text": ""
+    },
+    {
       "uid": "9dg9u9g3a1",
       "title": "Правда ли, что если каждый день есть понемногу яда, в конце концов ты приобретаешь к нему иммунитет?",
       "url": "http://askbrain.ru/tpost/9dg9u9g3a1-pravda-li-chto-esli-kazhdii-den-est-pone",
@@ -141,22 +157,6 @@
         "Медицина"
       ],
       "image": "https://static.tildacdn.com/tild6135-6535-4065-b037-326232366661/Sergei_Voronin______.jpg",
-      "descr": "",
-      "text": ""
-    },
-    {
-      "uid": "76hbsyebr1",
-      "title": "Существуют ли в природе умственно отсталые животные?",
-      "url": "http://askbrain.ru/tpost/76hbsyebr1-suschestvuyut-li-v-prirode-umstvenno-ots",
-      "published": "2025-10-09T05:59:39",
-      "stats": {
-        "views": 3,
-        "likes": 0
-      },
-      "parts": [
-        "Биология"
-      ],
-      "image": "https://static.tildacdn.com/tild6264-3866-4864-a232-666535306535/Sergei_Voronin______.jpg",
       "descr": "",
       "text": ""
     }
@@ -499,7 +499,7 @@
         "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
         "published": "2025-10-11T02:46:33",
         "stats": {
-          "views": 4,
+          "views": 5,
           "likes": 0
         },
         "parts": [
@@ -515,7 +515,7 @@
         "url": "http://askbrain.ru/tpost/76hbsyebr1-suschestvuyut-li-v-prirode-umstvenno-ots",
         "published": "2025-10-09T05:59:39",
         "stats": {
-          "views": 3,
+          "views": 4,
           "likes": 0
         },
         "parts": [
