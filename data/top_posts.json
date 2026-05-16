@@ -33,6 +33,22 @@
       "text": ""
     },
     {
+      "uid": "h8xgl2h1m1",
+      "title": "Каково происхождение слова \"dollar\" и значка \"$\"?",
+      "url": "http://askbrain.ru/tpost/h8xgl2h1m1-kakovo-proishozhdenie-slova-dollar-i-zna",
+      "published": "2025-10-09T22:58:51",
+      "stats": {
+        "views": 9,
+        "likes": 0
+      },
+      "parts": [
+        "История"
+      ],
+      "image": "https://static.tildacdn.com/tild3465-3364-4263-b236-663065303563/Sergei_Voronin______.jpg",
+      "descr": "",
+      "text": ""
+    },
+    {
       "uid": "njmz53ocl1",
       "title": "Может ли человек выжить, питаясь одним пивом?",
       "url": "http://askbrain.ru/tpost/njmz53ocl1-mozhet-li-chelovek-vizhit-pitayas-odnim",
@@ -45,22 +61,6 @@
         "Медицина"
       ],
       "image": "https://static.tildacdn.com/tild6636-3131-4565-a264-373163366234/Sergei_Voronin______.jpg",
-      "descr": "",
-      "text": ""
-    },
-    {
-      "uid": "h8xgl2h1m1",
-      "title": "Каково происхождение слова \"dollar\" и значка \"$\"?",
-      "url": "http://askbrain.ru/tpost/h8xgl2h1m1-kakovo-proishozhdenie-slova-dollar-i-zna",
-      "published": "2025-10-09T22:58:51",
-      "stats": {
-        "views": 8,
-        "likes": 0
-      },
-      "parts": [
-        "История"
-      ],
-      "image": "https://static.tildacdn.com/tild3465-3364-4263-b236-663065303563/Sergei_Voronin______.jpg",
       "descr": "",
       "text": ""
     },
@@ -102,7 +102,7 @@
       "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
       "published": "2025-10-11T02:46:33",
       "stats": {
-        "views": 5,
+        "views": 6,
         "likes": 0
       },
       "parts": [
@@ -212,6 +212,22 @@
         "text": ""
       },
       {
+        "uid": "ati0vvgy81",
+        "title": "Если упасть с самолёта с шестом для прыжков в руках — можно ли спастись, упершись концом шеста в землю и пружинив?",
+        "url": "http://askbrain.ru/tpost/ati0vvgy81-esli-upast-s-samolyota-s-shestom-dlya-pr",
+        "published": "2025-10-13T04:39:23",
+        "stats": {
+          "views": 2,
+          "likes": 0
+        },
+        "parts": [
+          "Физика"
+        ],
+        "image": "https://static.tildacdn.com/tild6663-3039-4862-b265-343533356662/Sergei_Voronin______.jpg",
+        "descr": "",
+        "text": ""
+      },
+      {
         "uid": "xmski9hay1",
         "title": "Правда ли, что пакет с мукой может взорваться?",
         "url": "http://askbrain.ru/tpost/xmski9hay1-pravda-li-chto-paket-s-mukoi-mozhet-vzor",
@@ -224,22 +240,6 @@
           "Физика"
         ],
         "image": "https://static.tildacdn.com/tild6533-3432-4035-a166-666462626631/Sergei_Voronin______.jpg",
-        "descr": "",
-        "text": ""
-      },
-      {
-        "uid": "ati0vvgy81",
-        "title": "Если упасть с самолёта с шестом для прыжков в руках — можно ли спастись, упершись концом шеста в землю и пружинив?",
-        "url": "http://askbrain.ru/tpost/ati0vvgy81-esli-upast-s-samolyota-s-shestom-dlya-pr",
-        "published": "2025-10-13T04:39:23",
-        "stats": {
-          "views": 1,
-          "likes": 0
-        },
-        "parts": [
-          "Физика"
-        ],
-        "image": "https://static.tildacdn.com/tild6663-3039-4862-b265-343533356662/Sergei_Voronin______.jpg",
         "descr": "",
         "text": ""
       }
@@ -381,7 +381,7 @@
         "url": "http://askbrain.ru/tpost/h8xgl2h1m1-kakovo-proishozhdenie-slova-dollar-i-zna",
         "published": "2025-10-09T22:58:51",
         "stats": {
-          "views": 8,
+          "views": 9,
           "likes": 0
         },
         "parts": [
@@ -499,7 +499,7 @@
         "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
         "published": "2025-10-11T02:46:33",
         "stats": {
-          "views": 5,
+          "views": 6,
           "likes": 0
         },
         "parts": [
