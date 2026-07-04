@@ -102,13 +102,29 @@
       "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
       "published": "2025-10-11T02:46:33",
       "stats": {
-        "views": 6,
+        "views": 7,
         "likes": 0
       },
       "parts": [
         "Биология"
       ],
       "image": "https://static.tildacdn.com/tild3237-6137-4232-b761-653438316431/Sergei_Voronin______.jpg",
+      "descr": "",
+      "text": ""
+    },
+    {
+      "uid": "fimjuc0ht1",
+      "title": "Если, пока ты спишь, кто-то отправляет тебя в нокаут прямым ударом в челюсть, ты: а) просыпаешься и потом теряешь сознание, или б) сразу, не просыпаясь, отправляешься в обморок?",
+      "url": "http://askbrain.ru/tpost/fimjuc0ht1-esli-poka-ti-spish-kto-to-otpravlyaet-te",
+      "published": "2025-10-07T05:15:34",
+      "stats": {
+        "views": 6,
+        "likes": 0
+      },
+      "parts": [
+        "Медицина"
+      ],
+      "image": "https://static.tildacdn.com/tild3932-3364-4131-b634-306631353435/Sergei_Voronin______.jpg",
       "descr": "",
       "text": ""
     },
@@ -125,22 +141,6 @@
         "Физика"
       ],
       "image": "https://static.tildacdn.com/tild3061-3232-4530-a261-613866376163/Sergei_Voronin______.jpg",
-      "descr": "",
-      "text": ""
-    },
-    {
-      "uid": "fimjuc0ht1",
-      "title": "Если, пока ты спишь, кто-то отправляет тебя в нокаут прямым ударом в челюсть, ты: а) просыпаешься и потом теряешь сознание, или б) сразу, не просыпаясь, отправляешься в обморок?",
-      "url": "http://askbrain.ru/tpost/fimjuc0ht1-esli-poka-ti-spish-kto-to-otpravlyaet-te",
-      "published": "2025-10-07T05:15:34",
-      "stats": {
-        "views": 5,
-        "likes": 0
-      },
-      "parts": [
-        "Медицина"
-      ],
-      "image": "https://static.tildacdn.com/tild3932-3364-4131-b634-306631353435/Sergei_Voronin______.jpg",
       "descr": "",
       "text": ""
     },
@@ -283,7 +283,7 @@
         "url": "http://askbrain.ru/tpost/fimjuc0ht1-esli-poka-ti-spish-kto-to-otpravlyaet-te",
         "published": "2025-10-07T05:15:34",
         "stats": {
-          "views": 5,
+          "views": 6,
           "likes": 0
         },
         "parts": [
@@ -499,7 +499,7 @@
         "url": "http://askbrain.ru/tpost/ioe624fxz1-moi-pyos-bolonka-i-koshka-postoyanno-zan",
         "published": "2025-10-11T02:46:33",
         "stats": {
-          "views": 6,
+          "views": 7,
           "likes": 0
         },
         "parts": [
